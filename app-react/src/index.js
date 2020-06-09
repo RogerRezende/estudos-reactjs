@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Hello from './Hello.js';
+import Clock from './Clock.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Clock />
   </React.StrictMode>,
   document.getElementById('root')
 );
